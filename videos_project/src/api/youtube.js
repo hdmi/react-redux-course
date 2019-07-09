@@ -1,12 +1,15 @@
 import axios from 'axios';
 
-const YOUTUBE_KEY = ${process.env.REACT_APP_YOUTUBE_API};
-
-
-
-export default axios.create({
-  baseURL: 'https://api.unsplash.com/',
-  headers: {
-    Authorization: `Client-ID ${process.env.REACT_APP_UNSPLASH_API_KEY}`
+const YOUTUBE_KEY = process.env.REACT_APP_YOUTUBE_API + ''
+console.log(YOUTUBE_KEY);
+const youtube = axios.create({
+  baseURL: 'https://www.googleapis.com/youtube/v3/',
+  params: {
+    part: 'snippet',
+    maxResults: 5,
+    key: YOUTUBE_KEY,
+    type: 'video'
   }
 });
+
+export default youtube;
