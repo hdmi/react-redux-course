@@ -1,6 +1,7 @@
 {
   "packages": [
-    "./*"
+    "./*",
+    "./streaming_project/*"
   ],
   "version": "independent"
 }
