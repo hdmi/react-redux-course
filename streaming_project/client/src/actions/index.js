@@ -1,8 +1,11 @@
-export const action1 = () => {
+export const signIn = () => {
   return {
-    type: 'ACTION1',
-    payload: {
+    type: 'SIGN_IN'
+  }
+};
 
-    }
+export const signOut = () => {
+  return {
+    type: 'SIGN_OUT'
   }
 };
