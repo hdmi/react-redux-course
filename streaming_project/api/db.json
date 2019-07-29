@@ -1,0 +1,14 @@
+{
+  "streams": [
+    {
+      "title": "Stream one",
+      "description": "Streaming of my computer",
+      "id": 1
+    },
+    {
+      "title": "Other stream",
+      "description": "Music player stream",
+      "id": 2
+    }
+  ]
+}
