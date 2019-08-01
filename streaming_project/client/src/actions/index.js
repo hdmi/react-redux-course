@@ -70,5 +70,6 @@ export const deleteStream = (id, formValues) => {
       type: DELETE_STREAM,
       payload: id
     });
+    history.push('/');
   }
 }
