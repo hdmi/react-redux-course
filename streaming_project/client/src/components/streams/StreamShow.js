@@ -11,6 +11,10 @@ class StreamShow extends React.Component {
     this.videoRef = React.createRef();
   }
 
+  componentWillUnmount() {
+    this.player.destroy();
+  }
+
   componentDidMount() {
     this.props.fetchStream(this.props.match.params.id);
     this.buildPlayer();

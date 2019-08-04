@@ -11,29 +11,19 @@
       "id": 2
     },
     {
-      "title": "Stream logged in",
+      "title": "Stream Edited",
       "description": "Created by me",
-      "userId": null,
       "id": 3
     },
     {
-      "title": "Test4",
-      "description": "test4444",
-      "id": 5
-    },
-    {
-      "title": "Test 5",
-      "description": "test 3333",
-      "id": 6
-    },
-    {
-      "title": "New Stream with redirectd",
+      "title": "New Stream with redirect",
       "description": "description",
       "id": 7
     },
     {
-      "title": "ff",
-      "description": "asdf",
+      "title": "New Stream edited!",
+      "description": "new Description ",
+      "userId": "113482970130929970978",
       "id": 8
     }
   ]
