@@ -1,4 +1,7 @@
-# React Redux Course
+# React Redux Projects
+
+ - [Blog project](./blog_project/README,md)
+ - [Increments project](./increments_project/README.md) 
 
 # Resources
 

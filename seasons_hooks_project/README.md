@@ -1,7 +1,7 @@
 # Seasons Hooks Project
-This project is refactor from the Seasons Project but uses hooks for implementing life cycle methods and states instead implementing it with class based components.
+This project is a refactor from the Seasons Project but uses hooks for implementing life cycle methods and states instead implementing it with class based components.
 
-The hook method is reusable and can be ported to other projects independently. 
+The hook method is reusable and can be ported to other projects independently.
 
 # Components
 
